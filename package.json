@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "companion-module-build"
 	},
 	"license": "MIT",
 	"repository": {
@@ -11,9 +12,13 @@
 		"url": "git+https://github.com/bitfocus/companion-module-generic-timezone.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.4.1"
+		"@companion-module/base": "~1.15.0"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.8.0"
-	}
+		"@companion-module/tools": "~2.9.0"
+	},
+	"engines": {
+		"node": "^26.0.0"
+	},
+	"packageManager": "yarn@1.22.22"
 }
